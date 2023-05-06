@@ -1,0 +1,15 @@
+[package]
+name = "aespoly1305"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aead = "0.5.2"
+aes = "0.8.2"
+aes-gcm = "0.10.1"
+ctr = "0.9.2"
+poly1305 = "0.8.0"
+zeroize = "1.6.0"
+subtle = { version = "2", default-features = false }
